@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf08a1be357b6adda97dea86aed2b724add1fb7c
 # Compiled class file
 *.class
 
@@ -22,6 +25,7 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 =======
 HELP.md
 target/
@@ -57,3 +61,5 @@ build/
 ### VS Code ###
 .vscode/
 >>>>>>> first commit
+=======
+>>>>>>> bf08a1be357b6adda97dea86aed2b724add1fb7c
