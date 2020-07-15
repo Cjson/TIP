@@ -15,4 +15,6 @@ public interface HostService {
     int addHost(Host host);
 
     int updateHost(Host host);
+
+    int deleteHost(int id);
 }

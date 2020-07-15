@@ -3,19 +3,22 @@
 <mapper namespace="com.platform.tip.mapper.HostMapper">
 
     <select id="getHostList" resultType="com.platform.tip.entity.Host">
-        SELECT * FROM host
+        SELECT * FROM tip_host
     </select>
 
     <select id="getHostByName" resultType="com.platform.tip.entity.Host">
-        SELECT * FROM host where name = #{name}
+        SELECT * FROM tip_host where name = #{name}
     </select>
 
     <insert id="addHost" parameterType="com.platform.tip.entity.Host">
-        INSERT INTO host(ip,name) VALUES (#{ip},#{name })
+        INSERT INTO tip_host(ip,name) VALUES (#{ip},#{name })
     </insert>
     
     <update id="updateHost" parameterType="com.platform.tip.entity.Host">
-        UPDATE host SET name = #{name}, ip = #{ip} where id = #{id}
+        UPDATE tip_host SET name = #{name}, ip = #{ip} where id = #{id}
     </update>
 
+    <delete id="deleteHost" parameterType="Integer">
+        DELETE FROM tip_host WHERE id = #{id}
+    </delete>
 </mapper>

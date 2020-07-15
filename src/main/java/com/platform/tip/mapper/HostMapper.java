@@ -15,4 +15,6 @@ public interface HostMapper {
 
      int updateHost(Host host);
 
+     int deleteHost(int id);
+
 }

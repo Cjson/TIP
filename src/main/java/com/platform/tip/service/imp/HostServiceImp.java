@@ -57,4 +57,16 @@ public class HostServiceImp implements HostService {
     public int updateHost(Host host) {
         return hostMapper.updateHost(host);
     }
+
+      /**
+        * @MethodName: deleteHost
+        *@Description: TODO
+        *@Param: [int]
+        *@Return: int
+        *@time: 2020/7/16 0:34
+       */
+    @Override
+    public int deleteHost(int id) {
+        return hostMapper.deleteHost(id);
+    }
 }

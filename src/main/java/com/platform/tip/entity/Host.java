@@ -10,5 +10,12 @@ public class Host {
     private String ip;
     private String name;
 
+    public String getIp() {
+        return ip;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
 
