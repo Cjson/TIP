@@ -1,14 +1,19 @@
 package com.platform.tip.entity;
 
 
-import lombok.Data;
-
-@Data
 public class Host {
 
     private Integer id;
     private String ip;
     private String name;
+
+    public void setIp(String ip) {
+        this.ip = ip;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public String getIp() {
         return ip;
