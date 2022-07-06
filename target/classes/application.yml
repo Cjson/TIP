@@ -1,5 +1,12 @@
 server:
   port: 9998
+##  tomcat:
+ #   accesslog:
+  #    directory: /Users/h-com/IdeaProjects/TIP
+  #    enabled: true
+   #   file-date-format: .yyyy-MM-dd
+    #  prefix: access_log
+     # suffix: .log
 
 
 spring:
@@ -12,5 +19,7 @@ spring:
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
+
+
 
 
